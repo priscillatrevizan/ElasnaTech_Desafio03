@@ -19,16 +19,11 @@ body {
     height: 80px;
 }
 
-.header-logo img:hover{
+.header-logo img:hover {
     height: 90px;
+    border: none;
+    border-radius: 0;
 }
-
-.header-logo {
-    font-size:  44px;
-    text-transform: uppercase;
-    margin-left: 30px;
-}
-
 
 .header-nav ul {
     display: flex;
@@ -49,17 +44,35 @@ body {
     background-color: #6302e2;
 }
 
+main{
+    margin-top: 36px;
+}
+
 .img-flex {
-    margin: 15px;
-    gap: 6px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img:hover{
+    filter:drop-shadow7(px 9px 9px,#6302e2);
+    border: 6px solid #6302e2;
+    border-radius: 6px;
+}
+
+img:hover .logo{
+    border: none;
+    border-radius: 6px;
 }
 
 .div-img {
-    height: 80px;
-    display: flex;
-    justify-content: ;
-
+    height: 250px;
+    margin-bottom: 36px;
 }
+.size{
+    height: 100%;
+}
+
 
 footer{
     background-color: #1b013d;
